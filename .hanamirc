@@ -1,0 +1,3 @@
+project=boiler
+test=rspec
+template=erb
