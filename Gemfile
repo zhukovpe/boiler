@@ -6,6 +6,8 @@ gem 'mongoid',      '~> 7.0'
 
 gem 'httparty',     '~> 0.16.4'
 
+gem 'interactor',   '~> 3.0'
+
 group :development do
   # Code reloading
   # See: http://hanamirb.org/guides/projects/code-reloading
