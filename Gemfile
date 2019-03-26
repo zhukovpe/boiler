@@ -2,9 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake',         '~> 12.3.2'
 gem 'hanami',       '~> 1.3.1'
-gem 'hanami-model', '~> 1.3.2'
-
-gem 'pg',           '~> 1.1.4'
+gem 'mongoid',      '~> 7.0'
 
 gem 'httparty',     '~> 0.16.4'
 
