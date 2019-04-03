@@ -1,0 +1,2 @@
+class LeagueRepository < BaseRepository
+end

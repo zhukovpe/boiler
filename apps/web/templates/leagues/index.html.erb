@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>name</th>
+    <th>leagueid</th>
+    <th>description</th>
+    <th>tournament_url</th>
+    <th>itemdef</th>
+  </tr>
+  <% leagues.each do |league| %>
+    <tr>
+      <td><%= league.name %></td>
+      <td><%= league.leagueid %></td>
+      <td><%= league.description %></td>
+      <td><a href="<%= league.tournament_url %>"><%= league.tournament_url %></a></td>
+      <td><%= league.itemdef %></td>
+    </tr>
+  <% end %>
+</table>
