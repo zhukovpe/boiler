@@ -8,6 +8,10 @@ module Boiler
       base_uri 'api.steampowered.com'
       debug_output
 
+      def supported_api_list
+        get('/ISteamWebAPIUtil/GetSupportedAPIList')
+      end
+
       private
 
       def key
