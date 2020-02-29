@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake',         '~> 12.3.2'
+gem 'rake',         '~> 12.3.3'
 gem 'hanami',       '~> 1.3.1'
 gem 'mongoid',      '~> 7.0'
 
