@@ -4,7 +4,7 @@ gem 'rake',         '~> 12.3.2'
 gem 'hanami',       '~> 1.3.1'
 gem 'mongoid',      '~> 7.0'
 
-gem 'httparty',     '~> 0.16.4'
+gem 'httparty',     '~> 0.21.0'
 
 gem 'interactor',   '~> 3.0'
 
